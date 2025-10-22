@@ -1,0 +1,79 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11116.177
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7868CA54-D44E-442F-8A37-4BE260C34700}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C42A2FE5-6ADB-4E9C-AF53-CB0E3D4E6575}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{E98C3798-2A0F-445A-B418-47183630E207}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Fora Coding Challenge.md = docs\Fora Coding Challenge.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForaFinancial.Api", "src\ForaFinancial.Api\ForaFinancial.Api.csproj", "{F75C6103-8A90-A4AD-F977-9B0CBC418D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForaFinancial.Domain", "src\ForaFinancial.Domain\ForaFinancial.Domain.csproj", "{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForaFinancial.Application", "src\ForaFinancial.Application\ForaFinancial.Application.csproj", "{B2C3D4E5-F6A7-8901-BCDE-F12345678901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForaFinancial.Infrastructure", "src\ForaFinancial.Infrastructure\ForaFinancial.Infrastructure.csproj", "{C3D4E5F6-A7B8-9012-CDEF-123456789012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForaFinancial.IntegrationTests", "tests\ForaFinancial.IntegrationTests\ForaFinancial.IntegrationTests.csproj", "{BBAB81C5-F237-61F3-06A6-E3AD2345A61A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForaFinancial.Domain.UnitTests", "tests\ForaFinancial.Domain.UnitTests\ForaFinancial.Domain.UnitTests.csproj", "{AF052E68-BEC7-4DDB-9FDC-082E9B606AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForaFinancial.Application.UnitTests", "tests\ForaFinancial.Application.UnitTests\ForaFinancial.Application.UnitTests.csproj", "{55A38DF1-08DA-15CB-F435-34CB61940652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F75C6103-8A90-A4AD-F977-9B0CBC418D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75C6103-8A90-A4AD-F977-9B0CBC418D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75C6103-8A90-A4AD-F977-9B0CBC418D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75C6103-8A90-A4AD-F977-9B0CBC418D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C3D4E5-F6A7-8901-BCDE-F12345678901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C3D4E5-F6A7-8901-BCDE-F12345678901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C3D4E5-F6A7-8901-BCDE-F12345678901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C3D4E5-F6A7-8901-BCDE-F12345678901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D4E5F6-A7B8-9012-CDEF-123456789012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D4E5F6-A7B8-9012-CDEF-123456789012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D4E5F6-A7B8-9012-CDEF-123456789012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D4E5F6-A7B8-9012-CDEF-123456789012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBAB81C5-F237-61F3-06A6-E3AD2345A61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAB81C5-F237-61F3-06A6-E3AD2345A61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAB81C5-F237-61F3-06A6-E3AD2345A61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAB81C5-F237-61F3-06A6-E3AD2345A61A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF052E68-BEC7-4DDB-9FDC-082E9B606AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF052E68-BEC7-4DDB-9FDC-082E9B606AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF052E68-BEC7-4DDB-9FDC-082E9B606AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF052E68-BEC7-4DDB-9FDC-082E9B606AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A38DF1-08DA-15CB-F435-34CB61940652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A38DF1-08DA-15CB-F435-34CB61940652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A38DF1-08DA-15CB-F435-34CB61940652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A38DF1-08DA-15CB-F435-34CB61940652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F75C6103-8A90-A4AD-F977-9B0CBC418D03} = {7868CA54-D44E-442F-8A37-4BE260C34700}
+		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890} = {7868CA54-D44E-442F-8A37-4BE260C34700}
+		{B2C3D4E5-F6A7-8901-BCDE-F12345678901} = {7868CA54-D44E-442F-8A37-4BE260C34700}
+		{C3D4E5F6-A7B8-9012-CDEF-123456789012} = {7868CA54-D44E-442F-8A37-4BE260C34700}
+		{BBAB81C5-F237-61F3-06A6-E3AD2345A61A} = {C42A2FE5-6ADB-4E9C-AF53-CB0E3D4E6575}
+		{AF052E68-BEC7-4DDB-9FDC-082E9B606AD2} = {C42A2FE5-6ADB-4E9C-AF53-CB0E3D4E6575}
+		{55A38DF1-08DA-15CB-F435-34CB61940652} = {C42A2FE5-6ADB-4E9C-AF53-CB0E3D4E6575}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCF5FF05-D0D2-4B07-9AFB-CD434ED63A10}
+	EndGlobalSection
+EndGlobal
